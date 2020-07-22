@@ -1,0 +1,1 @@
+{"date":"2020-05-21","cardioType":"running","cardioDUR":"25","liftingSplit":"","liftingDUraiton":"","liftingIntensity":"","weight":"97","fitness_ID":"26"}UPDATE fitness SET date = '2020-05-21', cardioType = 'running', cardioDUR = 25, liftingSplit = '', liftingDUraiton = , liftingIntensity = , weight = 97 WHERE fitness_ID = 26;

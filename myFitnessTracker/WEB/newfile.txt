@@ -1,0 +1,1 @@
+INSERT INTO fitness (date, cardioType, cardioDUR, liftingSplit, liftingDUraiton, liftingIntensity, weight, user_id)VALUES ('2020-07-21', 'biking', 55, 'back, arms, abs', 35, 3, 165, 17);

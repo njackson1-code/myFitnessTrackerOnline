@@ -1,0 +1,1 @@
+UPDATE goals SET goal = '225 lb bench press' WHERE user_id = 17 and row_id = 2;

@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'baloo_chettan_2regular';
+    src: url('baloochettan2-regular-webfont.woff2') format('woff2'),
+         url('baloochettan2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html, body {
+    font-family: 'baloo_chettan_2regular';
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+   
+    
+    
+}
+
+#whiteMenuCover {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+
+.topBorder {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.topBorder div {
+    float: left;
+}
+
+
+
+#topleft, #topmiddle {
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 33.3%;
+    text-align: center;
+  
+    float: left;
+}
+
+#topmiddle {
+    font-size: 50px;
+    overflow: visible;
+}
+
+#topright {
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 13%;
+    width: 20.4%;
+   
+}
+
+#sideMenu {
+    height: 100%;
+    width: 0;
+    transition: all 0.3s ease-in;
+    position: absolute;
+    background-color: #eeeeee;
+    opacity: 0.9;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#sideMenu li {
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #f1f3f4;
+    padding-top: 50px;
+}
+
+#sideMenu li:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+#menuTitle {
+    font-size: 50px;
+    padding-bottom: 150px;
+}
+
+
+#menubaricon {
+    height: 40px;
+    z-index: 2;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#user img {
+    padding-top: 5px;
+    height: 25px;
+}
+
+#setting img {
+    padding-top: 5px;
+    height: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+
+
+
+#user, #setting{
+    box-sizing: border-box;
+    position: relative;
+    float:right;
+    text-align: center;
+    padding-right: 25px;
+    width: 80px;
+}
+
+#userbar:hover, #settingsbar:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+}
+
+#userbar, #settingsbar {
+    box-sizing: border-box;
+    overflow:hidden;
+    height:0;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#userbar {
+    right: 10px;
+}
+
+#settingsbar {
+    right: 10px;
+}
+
+#userbar li:hover, #settingsbar li:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #dbdbdb;
+}
+
+
+#userbar li, #settingsbar li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#topright div:hover:hover #userbar, #topright div:hover:hover #settingsbar{
+    display: block;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in;
+    height: 125px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+#topright div:hover:hover #userbar {
+    height: 155px;
+}
+
+
+#goalsSection, #progressSection {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 25px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+
+#goalsSection div , #progressSection div{
+
+    width: 40%;
+    text-align: center;
+    margin-top: 250px;
+    transition: all 0.3s ease-in;
+    float: right;
+    color: black;
+}
+
+#goalsSection div:hover,  #progressSection div:hover{
+    transition: all 0.3s ease-in;
+    font-size: 35px;
+}
+
+#goalsIMG , #progressIMG{
+    width: 60%;
+}
+
+
+
+#workSection {
+    margin-bottom: 100px;
+    
+}
+
+#workIMG {
+    width: 60%;
+}
+
+#pageDescription {
+    padding-left: 5px;font-size: 30px;
+    position: fixed;
+   top: 0px;
+}
+
+
+#workSection div {
+    height: 100%;
+    margin-bottom: 50%;
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    margin-top: 250px;
+    transition: all 0.3s ease-in;
+    float: left;
+    font-size: 25px;
+    color: black;
+}
+
+#workSection div:hover {
+    transition: all 0.3s ease-in;
+    font-size: 35px;
+}
+
+.main img {
+    transition: all 0.3s ease-in;
+}
+
+
+
+
+#bottom {
+    float: bottom;
+    height: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom:0%;
+}
+
+
+
+
+
+
+
+
+#pwForm {
+    position: fixed;
+    top: 250px;
+    height: 350px;
+    display: none;
+    width: 20%;
+    margin-left: 40%;
+    background-color: #eeeeee;
+    text-align: center;;
+}
+
+#pwForm input {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#pwForm button {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+#submitPW {
+    opacity: 0.25;
+}
+
+#pwForm div {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+

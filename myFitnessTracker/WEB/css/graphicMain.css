@@ -1,0 +1,60 @@
+#graphicContainer div img {
+    width: 50px;
+    position: relative;
+    transform-origin: center;
+    transition: all 1.75s ease-in;
+    margin-top: -25%; margin-left: -25%;
+  }
+  
+  #graphicContainer {
+    position: relative;
+   
+    width: 800px; height: 800px;
+    background: radial-gradient(blueviolet, white);
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    transition: all 1.75s ease-in;
+    transform-origin: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+   
+  }
+
+  #graphicContainer p {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    transition: all 1.75s ease-in;
+    margin-top: 0%; margin-left: -100%;
+  }
+
+  
+ 
+
+  hr {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      width: 75%;
+  }
+  
+  #box1,
+  #box2,
+  #box3 {
+    transform-origin: center;
+    position: absolute;
+    transition: all 1.75s ease-in;
+    animation-direction: reverse;
+    /* border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px; */
+    top: 50%; left: 50%;
+  }

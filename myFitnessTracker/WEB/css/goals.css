@@ -1,0 +1,62 @@
+.main {
+    width: 80%;
+    margin-left: 10%;
+    height: 245px;
+    border: 0px solid blueviolet;
+    transition: all 1.3s ease-in;
+    
+}
+
+
+
+
+.row {
+    transition: all 1.3s ease-in;
+    width: 0%;
+    opacity: 0.5;
+    margin-bottom: 5px;
+    overflow: visible;
+  
+    height: 75px;
+}
+.row:hover {
+    
+    opacity: 1;
+}
+
+.goalText { 
+    background-color: blueviolet;
+    position: absolute;
+    height: 75px;
+   padding: 0px; margin: 0px;
+   border: 0px;
+   color: white;
+   font-size: 25px;
+   width: 0%;
+   
+}
+
+.addGoal {
+    transition: all 0.3s ease-in;
+    display: block;
+    z-index: 20;
+    position: relative;
+}
+
+.mover { 
+    transition: all 1.3s ease-in;
+    height: 75px;
+}
+
+.rotated { 
+    animation: rotation 0.5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

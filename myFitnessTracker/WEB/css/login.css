@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'baloo_chettan_2regular';
+    src: url('baloochettan2-regular-webfont.woff2') format('woff2'),
+         url('baloochettan2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html, body {
+    font-family: 'baloo_chettan_2regular';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+}
+
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+#backgroundLogin {
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+
+#backgroundLogin #img {
+    height: 100%;
+    z-index: 0;
+}
+
+#form, #createForm, #forgotPassword {
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 50%;
+    margin-top: 17%; 
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+p {
+    color: blue;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logo {
+    position: absolute;
+    width: 5%;
+    z-index: 7;
+    margin-left: 47.5%;
+    margin-top: 17%; 
+}
+
+input {
+ 
+    width: 75%;
+    text-align: center;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+
+    box-sizing: border-box;
+    width: 75%;
+    text-align: center;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+
+#title {
+    font-size: 50px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+   
+    position:absolute;
+    z-index: 20;
+}
+
+
+
+#login
+{
+
+}
+
+#createForm, #forgotPassword {
+    display: none;
+    z-index: 3;
+}
+
+#recoveryEmail {
+    margin-top: 30%;
+}
+
+
+#username {
+    margin-top: 30%;
+}
+
+#fname {
+    margin-top: 30%;
+}
+
+#sendForm {
+    background-color: #cccccc;
+}

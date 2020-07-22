@@ -1,0 +1,353 @@
+
+html, body {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+    font-family: 'American Typewriter';
+}
+
+
+body {
+    height: 750px;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+#title {
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    float: left;
+    width: 34%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color:  white;
+    height: 100%;
+    border: 1px solid black;
+    padding-top: 42px;
+}
+
+
+.settings {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-left: none;
+    height: 100%;
+    padding-top: 80px;
+    float:left;
+    width: 66%;
+ 
+}
+
+#user, #setting{
+    box-sizing: border-box;
+    padding-top: 10px;
+    float:right;
+    text-align: center;
+    width: 17%;
+    
+}
+
+#user img {
+    padding-top: 5px;
+    height: 25px;
+}
+
+#setting img {
+    padding-top: 5px;
+    height: 25px;
+}
+
+.settings div:hover{
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+}
+
+
+.topBorder {
+    width: 100%;
+    height: 150px;
+}
+
+#userbar:hover, #settingsbar:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+}
+
+#userbar, #settingsbar {
+    box-sizing: border-box;
+    overflow:hidden;
+    height:0;
+    position: absolute;
+    text-align: center;
+    width: 11.22%;
+    
+}
+
+
+#userbar li:hover, #settingsbar li:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #dbdbdb;
+}
+
+
+
+#userbar li, #settingsbar li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.settings div:hover:hover #userbar, .settings div:hover:hover #settingsbar{
+    display: block;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in;
+    height: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.settings div:hover:hover #userbar {
+    height: 175px;
+}
+
+
+.main {
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main .menu {
+    float: left;
+    width: 34%;
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    
+    text-align: center;
+    
+
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+    border-top:none;
+}
+
+.main .menu li {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    border: 1px solid black;
+    border-right: none;
+    font-size: 25px;
+    color: black;
+}
+
+.main .menu li:hover{
+    cursor: pointer;
+    background-color: lightcyan;
+}
+
+#progress {
+    border-top: none;
+    
+}
+
+#data {
+    border-top:none;
+}
+
+#rock {
+    padding-top: 50px;
+    font-size: 25px;
+    min-height: 100%;
+}
+
+
+
+.main #graphic {
+    width: 66%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    float: right;
+    overflow: hidden;
+}
+
+.main #graphic img {
+    height: 100%;
+    width: auto;
+}
+
+
+
+#liftingDropbox {
+    background-color: white;
+    position: absolute;
+   width: 200px;
+   min-height: 200px;
+}
+
+#datapoints {
+    width: 66%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    float: right;
+    overflow: hidden;
+    text-align: center;
+    
+    overflow: scroll;
+}
+
+
+#addData {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 75%;
+    margin-top: 100px;
+}
+
+#running, #biking {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.typeLift {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+#myForm {
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    opacity: 1;
+    width: 66%;
+    
+    
+    height: 100%;
+   text-align: left;
+   z-index: 2;
+   overflow: hidden;
+}
+
+#formBackground {
+    width: 100%;
+  
+    position: absolute;
+    z-index: -1;
+    
+}
+
+#myForm input {
+    width: 30%;
+}
+
+#myForm div {
+    width: 100%;
+}
+
+
+
+.text {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+#cardioType {
+    margin-left: 0%;
+}
+
+#cardio div div , #lifting div div{
+    color: white;
+}
+
+#myForm input {
+    height: 30px;
+    font-size: 15px;
+}
+
+
+#addData:hover{
+    cursor: pointer;
+}
+
+
+table {
+    margin-top: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    overflow: scroll;
+    
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#tableData tr:hover {
+    background-color: #eee;
+}
+
+#tableData td, #tableData th{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+
+#graph {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+   
+}
+
+#graphArea {
+    overflow: scroll;
+    text-align: center;
+}
+
+#overlay {
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: black;
+    text-align: center;
+    opacity: 0.8;
+    display: none;
+}
+
+#closeGraph{
+    display: none;
+    position: fixed;
+    z-index: -1;
+}
+
+
+

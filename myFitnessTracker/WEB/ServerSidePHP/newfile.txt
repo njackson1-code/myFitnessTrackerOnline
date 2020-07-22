@@ -1,0 +1,1 @@
+INSERT INTO fitness (date, cardioType, cardioDUR, liftingSplit, liftingDUraiton, liftingIntensity, weight, user_id) VALUES ('', '', , '', , , , 1);

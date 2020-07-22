@@ -1,0 +1,1 @@
+1651654050{"avgLifting":40,"avgCardio":50,"lastWeight":165,"weightChange":"0"}
