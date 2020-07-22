@@ -12,4 +12,4 @@ For the backend, it is made up of mostly php which connects to a SQL database fo
 
 It is no longer being hosted on the web due to the cost, but I created a demo video that goes through the contents of the site so that you can see.
 
-Please view the demoVIDEO.mov in the root directory to see the a demo of the website.
+Please view the demoMOVIE.mov in the root directory to see the a demo of the website.
