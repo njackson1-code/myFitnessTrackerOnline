@@ -1,3 +1,7 @@
+# to view demo
+
+Please go to https://njackson1-code.github.io/portfolio/ to view a demo video of the website, as it is no longer being hosted.
+
 # myFitnessTrackerOnline
 
 This is a website I created after my internship was cancelled due to covid. 
@@ -8,8 +12,3 @@ It makes use of HTML/CSS/Javascript as the core for the frontend. It also uses J
 
 For the backend, it is made up of mostly php which connects to a SQL database for storing the user data.
 
-# DemoVideo
-
-It is no longer being hosted on the web due to the cost, but I created a demo video that goes through the contents of the site so that you can see.
-
-Please view the demoMOVIE.mov in the root directory to see the a demo of the website.
